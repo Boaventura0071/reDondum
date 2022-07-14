@@ -1,0 +1,120 @@
+*{margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;}
+    
+  ::-webkit-scrollbar{width: 10px;}
+    
+  ::-webkit-scrollbar-track{background-color: #f5f5dc;}
+      
+  ::-webkit-scrollbar-thumb{background-color: #000000;
+                            border-radius: 20px;}
+      
+  ::selection{background-color: #000000;
+              color: #ffffff;}
+    
+  /* inicio header */
+    
+  .header{height: 100px;
+          z-index: 1000;
+          width: 100%;
+  }
+
+  .img-do-header{
+    width:30% ;
+    height: 65%;
+  }
+
+    
+  /* fim header */
+    
+ /* inicio conteudo do site */
+
+  .ods15{
+    background-image: url(./imagens/Design\ sem\ nome\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ods15-conteudo:hover{
+    background-color: rgba(0, 0, 0, 0.528);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #ffffff;
+    transition: ease 3s;
+  }
+
+  .titulo-ods15{
+    display:flex ;
+    justify-content: center;
+  }
+  
+  .titulo-ods-bloco{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#ffffff;
+    font-size: 35px;
+  }
+  
+  .ods15-bloco:hover{
+    width: 75%;
+    height: 70%;
+  }
+
+  .p-ods-bloco{
+    font-family:monospace;
+    font-size:20px;
+    color: #ffffff;
+    justify-content: a;
+  }
+  
+  .vidaanimal {
+    height: 950px;
+  }
+
+  .ecossistemas {
+    height: 1000px;
+  }
+
+
+  /* fim conteudo do site */
+  
+  /* inicio projetos */
+  
+
+  .projetos-bloquinhos:hover{background-color: #1a1a1a;
+                             transition: ease 1.5s;}
+  
+  /* fim projetos */
+  
+
+  @media only screen and (max-width: 600px)  {
+    .nav-item {
+      display: none;
+    }
+
+    .homeconteudo {
+      height: 600px;
+    }
+    
+    .vidaanimal {
+      height: 500px;
+    }
+
+    .ecossistemas {
+      height: 500px;
+    }
+
+    .projetos {
+      height: 2700px;
+    }
+
+    .iframe-top {
+      width: 340px;
+    }
+
+    .texto-projetos {
+      display: none;
+    }
+
+  }
